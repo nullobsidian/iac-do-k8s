@@ -14,7 +14,7 @@ Want to change default username? Add this end of `docker build` command.
 
 `--build-arg USER='exampleuser'`
 
-Run the container
+Pull image and run the container
 
 ```shell
 docker pull sagebinary/iac-do-k8s
