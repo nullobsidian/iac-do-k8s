@@ -2,7 +2,7 @@ FROM alpine:latest
 
 LABEL company="sagebinary"
 
-LABEL version="1.1.0"
+LABEL version="1.0.0"
 
 ARG USER=dev
 ENV HOME /home/$USER
