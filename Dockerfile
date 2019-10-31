@@ -1,15 +1,13 @@
 FROM alpine:latest
 
-LABEL company="sagebinary"
-
-LABEL version="1.0.0"
-
 ARG USER=dev
 ENV HOME /home/$USER
 ENV DOCTL_VERSION "1.33.0"
 ENV ANSIBLE_VERSION "2.8.6"
 ENV TERRAFORM_VERSION "0.12.12"
 ENV K8s_VERSION "1.15.5"
+
+LABEL version="1.0.0"
 
 RUN apk add --update \
     sudo \
